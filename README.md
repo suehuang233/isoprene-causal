@@ -1,11 +1,11 @@
 # isoprene-causal
-Public code release accompanying the paper Causal Inference of Urban Isoprene Variability: Quantifying Environmental Drivers and Future Projections under Warming Climate.
+Code and data for Causal Inference of Urban Isoprene Variability: Quantifying Environmental Drivers and Future Projections under Warming Climate.
 # Causal Inference of Urban Isoprene Variability
 
-This repository contains the public release of code accompanying the paper:
+This repository contains the research code and data for the paper:
 
 > *Causal Inference of Urban Isoprene Variability: Quantifying Environmental Drivers and Future Projections under Warming Climate*  
-> (Author: Shu HUANG et al., Year: 2025)
+> (Author: Shu HUANG et al., Year: 2026)
 
 The code provides a minimal and transparent pipeline for estimating **Average Treatment Effect (ATE)** and **Individual Treatment Effect (ITE)** of environmental drivers on **isoprene concentrations** using [DoWhy](https://github.com/py-why/dowhy) and [EconML](https://github.com/microsoft/EconML).  
 It leverages **Double Machine Learning (CausalForestDML)** with LightGBM base learners and includes hyperparameter tuning.
