@@ -11,15 +11,15 @@ The code provides a minimal and transparent pipeline for estimating **Average Tr
 It leverages **Double Machine Learning (CausalForestDML)** with LGBMRegressor base learners and includes hyperparameter tuning.
 
 ---
+### Environment
+This project was developed and tested with:
+ - Python 3.11
+Install the required packages with:
 
-## Table of Contents
+```bash
+pip install -r requirements.txt
 
-1. [Installation](#installation)
-2. [Usage](#usage)
-3. [Parameters](#parameters)
-4. [Outputs](#outputs)
-5. [Causal Graph](#causal-graph)
-6. [License](#license)
+
 
 
 ### 📖 Citation
