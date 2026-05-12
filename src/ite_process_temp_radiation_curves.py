@@ -22,7 +22,7 @@ import pandas as pd
 # Place the input CSV in the same directory as this script, or replace this path.
 DATA_PATH = "../data/month5to10-5to20hour-2020.csv"
 
-BASE_OUTPUT_DIR = "../results/ite_temp_radiation_curves"
+BASE_OUTPUT_DIR = "../results/causal_effects"
 
 MONTH_MIN, MONTH_MAX = 5, 10
 HOUR_MIN, HOUR_MAX = 5, 20

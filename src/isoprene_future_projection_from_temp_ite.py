@@ -32,14 +32,14 @@ import pandas as pd
 OBS_DATA_PATH = "../data/month5to10-5to20hour-2020.csv"
 
 ITE_TEMP_CSV = os.path.join(
-    "../results/ite_temp_radiation_curves",
+    "../results/causal_effects",
     "ITE_Temp_iters3.csv",
 )
 
 # This can be either:
 # 1. a precomputed yearly file with columns: Year, RCP, Temp_MayOct_mean; or
 # 2. the original Wang-format wide CSV/XLSX, which will be parsed below.
-WANG_TEMP_FILE = "wang_yearly_temp_mean_MayOct.csv"
+WANG_TEMP_FILE = "../data/wang_yearly_temp_mean_MayOct.csv"
 
 OUT_DIR = "../results/project_future_isoprene_from_ITE"
 
